@@ -66,3 +66,21 @@ the value of pi.
 [Here](https://www.youtube.com/watch?v=ELetCV_wX_c) is a video of the
 process to understand how it works
 
+### Exercise
+There is a function prototype called `mc_pi` which should accept the
+number of iterations (the number of darts thrown) as input and return
+the estimate of 𝛑.
+
+### Implementation hints
+You can use the provided `frandom` function to generate and return a
+random number (to simulate dart throws). It will return numbers
+between 0 and 1 (i.e. all in the first quadrant of the square). 
+
+Use the `frandom` twice per iteration to function to find a random
+point `(x,y)` and then check whether it lies inside the circle by
+calculating the distance between the point and `(0,0)`. 
+
+## Testing
+
+You can run `make test_mc` and `make test_wallis` to check if your
+implementations are correct before you push the code.
