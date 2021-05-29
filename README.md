@@ -19,7 +19,7 @@ will be and higher the accuracy of the estimate.
 
 ### Exercise
 
-There is a file provided called `estimate.c` which has a prototype of
+There is a file provided called `wallis.c` which has a prototype of
 a function `wallis_pi`. It will take the number of iterations and
 return the estimate of pi using the wallis formula.
 
@@ -67,9 +67,9 @@ the value of pi.
 process to understand how it works
 
 ### Exercise
-There is a function prototype called `mc_pi` which should accept the
-number of iterations (the number of darts thrown) as input and return
-the estimate of 𝛑.
+There is a function prototype called `mc_pi` in the file
+`monte_carlo.c` which should accept the number of iterations (the
+number of darts thrown) as input and return the estimate of 𝛑.
 
 ### Implementation hints
 You can use the provided `frandom` function to generate and return a
